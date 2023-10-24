@@ -4,8 +4,8 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 
 # Load the knn model
-with open('knn_model.pkl', 'rb') as model_file:
-    knn_model = pickle.load(model_file)
+with open('svc_model.pkl', 'rb') as model_file:
+    svc_model = pickle.load(model_file)
 
 # Streamlit app header
 st.title('customer churn predition')
